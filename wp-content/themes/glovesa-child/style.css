@@ -1,1 +1,1586 @@
-/*! ********************************************************	Theme Name:     glovesa-child*   Author:         gecko*   Author URI:     http://gecko-btl.com/*   Description:    glovesa theme*   Version:        1.0*   License:        GNU General Public License v2 or later*   License URI:    http://www.gnu.org/licenses/gpl-2.0.html*   Template:       glovesa**!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/body{    font-family: 'Comfortaa', cursive;    background-image:url(assets/cream_pixels.png);    background-repeat:repeat;    font-size: 14px;}a{    color:black;    text-decoration: none;}a:hover{    color:black;    text-decoration: none;}a:focus{    outline: none;    color:black;    text-decoration: none;}#header-section{    background: white;    box-shadow: 1px 1px 10px;    height: 90px;}#logo-section{    position: relative;    left: 50px;    z-index: 10;}.logo-wrap{    padding-top: 15px;    width: 200px;}#menu-section{    text-transform: uppercase;    font-size:14px;    padding-left: 40px;}#menu-section a{    color:#009482;    border-bottom: solid 0 #fff;    transition: all .5s;}#menu-section a:hover{    border-bottom: solid 1px #009482;}#menu-section li{    margin:0 10px;}.ddl-nav-wrap{    margin-top: 20px;}#social-section ul{    list-style: none;    padding: 0;}#social-section li{    margin: 25px 10px;    display: inline-block;}#social-section a{    color:white;    display: block;    background: #009482;    width: 40px;    text-align: center;    height: 40px;    border-radius: 70px;    padding: 10px;    opacity: .5;    transition: all .5s;}#social-section a:hover{    opacity: 1;}#footer-section{    background: #009482;}#footer-section ul{    list-style: none;    padding:0;}#footer-menu{    background: #009482;    padding-top: 30px;    text-align: center;}#footer-menu li a{    color:white;    padding: 0;    text-transform: uppercase;}#footer-menu li:last-child{    border-right: solid 0 white;}#footer-menu li{    display: inline-block;    padding: 0 20px;    border-right: solid 1px white;}#footer-section a{    color: white;    text-transform: uppercase;    font-size:14px;}#social-section2{    padding-top: 10px;    text-align: center;}#social-section2 li{    display: inline-block;}#social-section2 a{    color:white;    display: inline-block;    background: #007d79;    width: 40px;    text-align: center;    height: 40px;    border-radius: 70px;    padding: 10px;    opacity:.5;    transition: all .5s;}#social-section2 a:hover{    opacity:1;}#footer-copyright p{    margin: 0;    opacity:.5;}#footer-copyright{    background: #545454;    color: white;    font-size: 14px;    padding: 10px 0 10px 60px;}#footer-copyright a{    color:white;    text-decoration: none;    transition:all .5s;}#footer-copyright a:hover{    color:deepskyblue;}.slick-prev, .slick-next{    /*background: #009482;    border-radius: 50%;    text-align: center;    padding: .5px .4px;*/    background: #cacaca;    border-radius: 50%;    width: 30px;    height: 30px;    transition: all .5s;}.slick-prev:hover, .slick-next:hover{    background: #009482;    border-radius: 50%;    width: 30px;    height: 30px;¡    /*background: #009482;    border-radius: 50%;    text-align: center;    padding: .5px .4px;*/}#footer-menu .ddl-nav-wrap, .navbar-toggle, body .ddl-navbar-toggle{    margin: 0 210px;}.ddl-nav > li > a:hover, .ddl-nav > li > a:focus{    background: none;}#slider-home{    margin-top: -10px;}#buscados{    background: white;    padding-top: 150px;    margin-top: -200px;    z-index: -3;}#nosotros_banner{    margin-top: -10px;    z-index: -2;    background: url(assets/nosotros_banner_2.jpg);    background-repeat: no-repeat;    background-size: cover;}.frase{    background: #009482;    color:white;    display: block;    width: 380px;    height:300px;    float:right;    margin: -11px 0 20px 0;    padding: 70px 20px 70px 70px;    font-size: 25px;    font-weight: 300;    border-radius: 0 0 50px 50px;}.frase p{    margin-top: -20px;}.frase p:nth-child(2n){    font-family: 'Comfortaa', cursive;    font-weight: 700;    font-size: 50px;}.frase p:first-child:before{    content:' " ';    font-weight: 700;    font-size:140px;    position: absolute;    left: 790px;    top: -10px;    opacity: .5;}.frase p:nth-child(4):after{    content:' " ';    font-weight: 700;    font-size:140px;    position: absolute;    top: 120px;    right: 90px;    opacity: .5;}/*#products-glove  .slick-slide{    -webkit-filter: grayscale(100%);    -moz-filter: grayscale(100%);    -ms-filter: grayscale(100%);    -o-filter: grayscale(100%);    filter: grayscale(100%);    filter: url(grayscale.svg);    filter: gray;    transform: scale(0.8);    opacity:.5;    transition: all 300ms ease;    padding: 10px;}*/#products-glove{    height:340px;}#products-glove  .slick-center{    -webkit-filter: grayscale(0%);    -moz-filter: grayscale(0%);    -ms-filter: grayscale(0%);    -o-filter: grayscale(0%);    filter: grayscale(0%);    filter: url(grayscale.svg); /* Firefox 4+ */    filter: gray; /* IE 6-9 */    /*transform: scale(1.0);*/    opacity: 1;    transition: all 300ms ease;    /*height: 300px;*/}#home-site{    background: #fff;    padding:0 20px;}.carusel-img{    display: inline-block;}.carusel-img img{    margin-left: 14px;}.category-name{    text-align: center;    font-size: 13px;}.link-name{    width: 230px;    margin:0 auto;    font-size: 14px;    border-top:solid 1px #009482;    /*border-bottom:solid 1px #009482;*/    text-align:center;    /*font-size: 17px;*/    min-height: 60px;    padding-top: 5px;}.link-name a{    text-transform: uppercase;    color: #009482;    font-weight: bold;    text-decoration: none;}#tittle-home h1{    text-align: center;    color:#009482;    font-size: 25px;    font-weight: 700;    font-family: 'Dosis', cursive;}#tittle-home:nth-child(2) h1{    color:#626262;}#tittle-home h1:after{    content:url('http://glovesa.pe/wp-content/uploads/2016/02/sombra.png');    display:block;    opacity:.4;    text-align: center;}.interes-home:last-child img{    margin: 0 auto;    height: 200px;}.interes-home img{    margin: 0 auto;}.interes-home a{    width: 400px;    height: 351px;    text-decoration: none;    background: white;    /*box-shadow: 2px 2px 7px #cacaca;*/    padding:20px;    margin-bottom: 30px;    float: left;    text-align: center;}.interes-home:last-child{    float: left;}.interes-home h1{    color:#009482;    font-size: 25px;    font-weight: 700;    font-family: 'Dosis', cursive;    padding-bottom: 30px;    /*border-bottom: solid 2px #009482;*/}#nosotros-page{    background: #fff;    padding: 20px;}.historia, #future{    width: 720px;    margin: 0 auto;}.historia h1{    background: #009482;    padding: 10px 5px;    width: 250px;    margin: 10px auto;    text-align: center;    color:#fff;    font-size: 30px;    border-radius: 0 0 20px 20px;    font-family: 'Comfortaa', cursive;}.mision h1, .vision h1{    background: #009482;    padding: 10px 5px;    width: 250px;    margin: 10px auto;    text-align: center;    color:#fff;    font-size: 30px;    border-radius: 0 0 20px 20px;    font-family: 'Comfortaa', cursive;}.historia, .mision, .vision p{    text-align: justify;    padding-bottom: 10px;}#menu-productos{    background: white;    width: 100%;    display: none;}.menu-product:nth-child(2n){    background: #000;}.menu-product{    width: 16.666%;    background: #eda900;    height:345px;    z-index: 2;}#menu-item-43>ul{    width: 1170px;    margin: 18px -390px;    border: none;    border-radius: 0 0 20px 20px;}#menu-item-43>ul>li{    text-align: center;    height: 435px;    width: 16.666%;    margin: 0;    list-style: none;    display: inline-block;    float: left;}#menu-item-43 li:first-child a{    background-image: url(assets/bidones4.png);    background-repeat: no-repeat;    background-size: cover;}#menu-item-43 li:nth-child(2) a{    background-image: url(assets/tanques3.png);    background-repeat: no-repeat;    background-size: cover;}#menu-item-43 li:nth-child(3) a{    background-image: url(assets/JABAS_AVICOLAS5.png);    background-repeat: no-repeat;    background-size: cover;}#menu-item-43 li:nth-child(4) a{    background-image: url(assets/CAJASPESCA3.png);    background-repeat: no-repeat;    background-size: cover;}#menu-item-43 li:nth-child(5) a{    background-image: url(assets/HOGAR3.png);    background-repeat: no-repeat;    background-size: cover;}#menu-item-43 li:nth-child(6) a{    background-image: url(assets/OTROS3.png);    background-repeat: no-repeat;    background-size: cover;}/*#menu-item-43 li:first-child a{    background: #0063d0;    border-radius: 0px 0px 0px 20px;}#menu-item-43 li:nth-child(2) a{    background: #009bdb;}#menu-item-43 li:nth-child(3) a{    background: #ba007c;}#menu-item-43 li:nth-child(4) a{    background: #bf0411;}#menu-item-43 li:nth-child(5) a{    background: #db9600;}#menu-item-43 li:nth-child(6) a{    background: #39a935;    border-radius: 0px 0px 20px 0px;}*/#menu-item-43 li a{    padding: 395px 10px 0 10px;    border: none;    width: 16.666%;    background: transparent;    position: absolute;    height: 100%;    color: white;    line-height: 1.1;    /*height: 75px;*/    font-size: 1.1em;    -webkit-filter: grayscale(100%);    -moz-filter: grayscale(100%);    -ms-filter: grayscale(100%);    -o-filter: grayscale(100%);    filter: grayscale(100%);    filter: url(grayscale.svg); /* Firefox 4+ */    filter: gray; /* IE 6-9 */}#menu-item-43 ul a:hover{    border: none;    margin: 0 auto;    -webkit-filter: grayscale(0%);    -moz-filter: grayscale(0%);    -ms-filter: grayscale(0%);    -o-filter: grayscale(0%);    filter: grayscale(0%);    filter: url(grayscale.svg); /* Firefox 4+ */    filter: gray; /* IE 6-9 */}#menu-section li.active a{    border-bottom: solid 1px #009482;}#wpgmza_map{    z-index:;}#glove-map{    margin-top: -22px;}#direccion p{    font-size: 18px;    text-align: center;    color:#009482;}#contactenos-body{    background: #fff;    padding: 20px;}.wpcf7-form{    padding: 25px 20px 10px;    border-top: solid 6px #009482;    background: #fff;    box-shadow: 2px 2px 10px #cacaca;    width: 390px;    border-radius: 0 0 20px 20px;    margin: 0 auto;}#image-contact img{    text-align: center;    width: 400px;    margin: 120px auto;}.wpcf7-form input, .wpcf7-form textarea{    border-radius: 10px;    border: solid 1px #303030;}.wpcf7-form input:focus,.wpcf7-form textarea:focus{    outline: none !important;    border-color:#009482;    box-shadow: 0 0 2px #009482;}.wpcf7-form p:nth-child(7){    text-align: right;}input.wpcf7-submit{    border: none;    background: #009482;    padding: 10px 10px 8px 10px;    text-transform: uppercase;    color: #fff;}span.wpcf7-not-valid-tip{    color:#009482;}div.wpcf7-validation-errors{    border: 2px solid #009482;}/* BIDONES PAGE */.bidones-prod{    background: white;    padding: 20px;    border-radius: 15px;    min-height: 350px;    /*box-shadow: 2px 2px 10px #999;*/    border-bottom: solid 5px #0063d0;    margin-bottom: 20px;}.bidones-prod img{    margin-bottom: 40px;}.bidones-prod a{    font-size: 18px;    color:#7c7c7c;    text-decoration: none;}#bidones-tittle{    background: #0063d0;    color: white;    margin-top: -10px;    margin-bottom: 25px;    text-align: center;    padding: 15px 0px 5px;    font-size: 20px;    border-radius: 0px 0px 20px 20px;}/* FIN BIDONES PAGE *//*CAJAS PAGE */.cajas-prod{    background: white;    padding: 20px;    border-radius: 15px;    min-height: 350px;    /*box-shadow: 2px 2px 10px #999;*/    border-bottom: solid 5px #bf0411;    margin-bottom: 20px;}.cajas-prod img{    margin-bottom: 40px;}.cajas-prod a{    font-size: 18px;    color:#7c7c7c;    text-decoration: none;}#cajas-tittle{    background: #bf0411;    color: white;    margin-top: -10px;    margin-bottom: 25px;    text-align: center;    padding: 15px 0 5px;    font-size: 20px;    border-radius: 0 0 20px 20px;}/* FIN CAJAS PAGE *//* TANQUES PAGE */.tanques-prod{    background: white;    padding: 20px;    border-radius: 15px;    min-height: 350px;    /*box-shadow: 2px 2px 10px #999;*/    border-bottom: solid 5px #009bdb;    margin-bottom: 20px;}.tanques-prod img{    margin-bottom: 40px;}.tanques-prod a{    font-size: 18px;    color:#7c7c7c;    text-decoration: none;}#tanques-tittle{    background: #009bdb;    color: white;    margin-top: -10px;    margin-bottom: 25px;    text-align: center;    padding: 15px 0px 5px;    font-size: 20px;    border-radius: 0px 0px 20px 20px;}/* FIN TANQUES PAGE *//* HOGAR PAGE*/.hogar-prod{    background: white;    padding: 20px;    border-radius: 15px;    min-height: 350px;    /*box-shadow: 2px 2px 10px #999;*/    border-bottom: solid 5px #eda900;    margin-bottom: 20px;}.hogar-prod img{    margin-bottom: 40px;}.hogar-prod a{    font-size: 18px;    color:#7c7c7c;    text-decoration: none;}#hogar-tittle{    background: #eda900;    color: white;    margin-top: -10px;    margin-bottom: 25px;    text-align: center;    padding: 15px 0px 5px;    font-size: 20px;    border-radius: 0px 0px 20px 20px;}/* FIN HOGAR PAGE*//* JABAS PAGE*/.jabas-prod{    background: white;    padding: 20px;    border-radius: 15px;    min-height: 350px;    /*box-shadow: 2px 2px 10px #999;*/    border-bottom: solid 5px #e6007e;    margin-bottom: 20px;}.jabas-prod img{    margin-bottom: 40px;}.jabas-prod a{    font-size: 18px;    color:#7c7c7c;    text-decoration: none;}#jabas-tittle{    background: #e6007e;    color: white;    margin-top: -10px;    margin-bottom: 25px;    text-align: center;    padding: 15px 0px 5px;    font-size: 20px;    border-radius: 0px 0px 20px 20px;}/* FIN JABAS PAGE*//* OTROS PAGE*/.otros-prod{    background: white;    padding: 20px;    border-radius: 15px;    /*box-shadow: 2px 2px 10px #999;*/    border-bottom: solid 5px #39a935;    margin-bottom: 20px;}.otros-prod img{    margin-bottom: 40px;}.otros-prod a{    font-size: 18px;    color:#7c7c7c;    text-decoration: none;}#otros-tittle{    background: #39a935;    color: white;    margin-top: -10px;    margin-bottom: 25px;    text-align: center;    padding: 15px 0px 5px;    font-size: 20px;    border-radius: 0px 0px 20px 20px;}/* FIN OTROS PAGE*/.flecha{    position: absolute;    right: 50px;    bottom: 10px;}.detalles-productos{    background: white;    padding: 30px;    margin-bottom: 10px;    border-radius: 10px;    height: 390px;}.look-image{    float: left;}.look-image img{    width: 400px;}.details{    float: left;    padding: 20px;    margin-left: 140px;    border-radius: 0 0 10px 10px;}.details h1{    font-size: 20px;    font-weight: bold;}.details h1 img{    position: absolute;    left: 560px;}.details ul{    list-style: none;}.especificaciones2{    text-align: center;    padding: 5px;}/*Detalles bidones*/.especificaciones1 li{    width: 24%;}.especificaciones1{    background: #0063d0;    width: 400px;    /*padding: 5px;*/    border-radius: 0 0 10px 10px;    color: white;    margin:0;    text-align: center;    padding: 0;    padding-top: 5px;    padding-bottom: 5px;    text-transform: uppercase;}/*Fin detalles bidones*//*Detalles cajas*/.especificaciones1cajas li{    width: 24%;}.especificaciones1cajas{    background: #bf0411;    width: 400px;    /*padding: 5px;*/    border-radius: 0 0 10px 10px;    color: white;    text-align: center;    padding: 0;    padding-top: 5px;    padding-bottom: 5px;    text-transform: uppercase;}.especificaciones1cajas li {   display:inline-block;}/* fin detalles cajas*//*Detalles tanques*/.especificaciones1tanques li{    width: 24%;}.especificaciones1tanques{    background: #009bdb;    width: 400px;    /*padding: 5px;*/    border-radius: 0 0 10px 10px;    color: white;    text-align: center;    padding: 0;    padding-top: 5px;    padding-bottom: 5px;    text-transform: uppercase;}.especificaciones1tanques li {    display:inline-block;}/* fin detalles tanques*//*Detalles hogar*/.especificaciones1hogar li{    width: 24%;}.especificaciones1hogar{    background: #eda900;    width: 400px;    /*padding: 5px;*/    border-radius: 0 0 10px 10px;    color: white;    text-align: center;    padding: 0;    padding-top: 5px;    padding-bottom: 5px;    text-transform: uppercase;}.especificaciones1hogar li {    display:inline-block;}/* fin detalles hogar*//*Detalles jabas*/.especificaciones1jabas li{    width: 24%;}.especificaciones1jabas{    background: #e6007e;    width: 400px;    /*padding: 5px;*/    border-radius: 0 0 10px 10px;    color: white;    text-align: center;    padding: 0;    padding-top: 5px;    padding-bottom: 5px;    text-transform: uppercase;}.especificaciones1jabas li {    display:inline-block;}/* fin detalles jabas*//*Detalles otros*/.especificaciones1otrosA li{    width: 24%;    display: inline-block;}.especificaciones1otrosA{    background: #39a935;    width: 400px;    margin: 0;    /*padding: 5px;*/    border-radius: 0 0 10px 10px;    color: white;    text-align: center;    padding: 0;    padding-top: 5px;    padding-bottom: 5px;    text-transform: uppercase;}.especificaciones1otrosB li{    width: 24%;    display: inline-block;}.especificaciones1otrosB{    background: #39a935;    width: 400px;    margin: 0;    /*padding: 5px;*/    border-radius: 0 0 10px 10px;    color: white;    text-align: center;    padding: 0;    padding-top: 5px;    padding-bottom: 5px;    text-transform: uppercase;}.especificaciones2otrosB{    width: 400px;    text-align: center;    padding: 0;    padding-top: 5px;}.especificaciones2otrosA{    text-align: center;    padding: 0;    padding-top: 5px;}.especificaciones2otrosA li{    display:inline-block;    width: 24%;}.especificaciones2otrosB li{    display:inline-block;    width: 24%;} /* fin detalles otros*/.especificaciones2{    width: 400px;    text-align: center;}.especificaciones2 li{    width: 24%;}.especificaciones li{    margin-bottom: 10px;}.especificaciones1 li, .especificaciones2 li{    display: inline-block;}.related-content{    margin-bottom: 20px;}/*BIDON INDUSTRIAL RELACIONADOS*/.bidon-industrial .related_products{    background: white;    margin: 5px 20px;    padding: 20px;    /*width: 32%;*/    /*text-align: center;*/    float: left;    border-radius: 20px;    border-bottom: solid 5px #0063d0;}.bidon-industrial .related_products a{    width: 100%;    text-decoration: none;}.bidon-industrial .related_products a.link-product:hover{    color: black;}.bidon-industrial .related_products a:nth-child(2):before{   content:url(http://glovesa.pe/wp-content/uploads/2016/01/ICON.png);   float: left;    margin-right: 10px;    vertical-align: middle;}.bidon-industrial .related_products img{    margin-bottom: 24px;    text-align: center;}/*FIN BIDON INDUSTRIAL RELACIONADOS*//*CAJAS RELACIONADOS*/.caja .related_products{    background: white;    margin: 5px 20px;    padding: 20px;    /*width: 32%;*/    /*text-align: center;*/    float: left;    border-radius: 20px;    border-bottom: solid 5px #bf0411;}.caja .related_products a{    width: 100%;    text-decoration: none;}.caja .related_products a.link-product:hover{    color: black;}.caja .related_products a:nth-child(2):before{    content:url(http://glovesa.pe/wp-content/uploads/2016/01/flecha2.png);    float: left;    margin-right: 10px;    vertical-align: middle;}.caja .related_products img{    margin-bottom: 24px;    text-align: center;}/*FIN CAJAS RELACIONADOS*//*TANQUES RELACIONADOS*/.tanque .related_products{    background: white;    margin: 5px 20px;    padding: 20px;   /* width: 32%;*/    /*text-align: center;*/    float: left;    border-radius: 20px;    border-bottom: solid 5px #009bdb;}.tanque .related_products a{    width: 100%;    text-decoration: none;}.tanque .related_products a.link-product:hover{    color: black;}.tanque .related_products a:nth-child(2):before{    content:url(http://glovesa.pe/wp-content/uploads/2016/01/flecha3.png);    float: left;    margin-right: 10px;    vertical-align: middle;}.tanque .related_products img{    margin-bottom: 24px;    text-align: center;}/*FIN TANQUES RELACIONADOS*//*JABAS RELACIONADOS*/.jaba .related_products{    background: white;    margin: 5px 20px;    padding: 20px;    /*width: 32%;*/    /*text-align: center;*/    float: left;    border-radius: 20px;    border-bottom: solid 5px #e6007e;}.jaba .related_products a{    width: 100%;    text-decoration: none;}.jaba .related_products a.link-product:hover{    color: black;}.jaba .related_products a:nth-child(2):before{    content:url(http://glovesa.pe/wp-content/uploads/2016/01/flecha5.png);    float: left;    margin-right: 10px;    vertical-align: middle;}.jaba .related_products img{    margin-bottom: 24px;    text-align: center;}/*FIN JABAS RELACIONADOS*//*HOGAR RELACIONADOS*/.producto-hogar .related_products{    background: white;    margin: 5px 20px;    padding: 20px;    /*width: 32%;*/    /*text-align: center;*/    float: left;    border-radius: 20px;    border-bottom: solid 5px #EDA900;}.producto-hogar .related_products a{    width: 100%;    text-decoration: none;}.producto-hogar .related_products a.link-product:hover{    color: black;}.producto-hogar .related_products a:nth-child(2):before{    content:url(http://glovesa.pe/wp-content/uploads/2016/01/flecha4.png);    float: left;    margin-right: 10px;    vertical-align: middle;}.producto-hogar .related_products img{    margin-bottom: 24px;    text-align: center;}/*FIN HOGAR RELACIONADOS*/.related-tittle h1{    margin: 0;    margin: 10px 0;    text-transform: uppercase;    font-size: 18px;    font-weight: bold;}/*OTROS RELACIONADOS*/.otro .related_products{    background: white;    margin: 5px;    padding: 20px;    /*width: 32%;*/    /*text-align: center;*/    float: left;    border-radius: 20px;    border-bottom: solid 5px #39a935;}.otro .related_products a{    width: 100%;    text-decoration: none;}.otro .related_products a.link-product:hover{    color: black;}.otro .related_products a:nth-child(2):before{    content:url(http://glovesa.pe/wp-content/uploads/2016/01/flecha6.png);    float: left;    margin-right: 10px;    vertical-align: middle;}.otro .related_products img{    margin-bottom: 24px;    text-align: center;}/*FIN OTROS RELACIONADOS*//* Productos page*/#menu-productos-menu li{    margin: 10px 10px;    width: 320px;    border-radius: 10px;    height: 270px;    background: white;}#menu-productos-menu a{    text-align: center;    padding-top: 230px;    font-size: 14px;    text-transform: uppercase;    font-weight: bold;}#menu-productos-menu .productos-bidones a{    color: #0063d0;}#menu-productos-menu .productos-cajas a{    color:#bf0411;}#menu-productos-menu .productos-tanques a{    color:#009bdb;}#menu-productos-menu .productos-hogar a{    color:#eda900;}#menu-productos-menu .productos-otros a{    color:#39a935;}#menu-productos-menu .productos-jabas a{    color:#e6007e;}#menu-productos-menu .productos-bidones{    background: url("assets/bidones.png");    background-size: cover;    border-bottom: solid 2px #0063d0;}#menu-productos-menu .productos-cajas{    background: url("assets/cajas.png");    background-size: cover;    border-bottom: solid 2px #bf0411;}#menu-productos-menu .productos-tanques{    background: url("assets/tanques.png");    background-size: cover;    border-bottom: solid 2px #009bdb;}#menu-productos-menu .productos-hogar{    background: url("assets/hogar.png");    background-size: cover;    border-bottom: solid 2px #eda900;}#menu-productos-menu .productos-otros{    background: url("assets/Otros.png");    background-size: cover;    border-bottom: solid 2px #39a935;}#menu-productos-menu .productos-jabas{    background: url("assets/jabas.png");    background-size: cover;    border-bottom: solid 2px #e6007e;}.frase-responsive{    display: none;}/* Fin Productos page*/@media only screen and (max-width: 801px) { /* NO DESKTOP */    /*#header-section{        height: auto;    }*/    .social-section{        display: none;    }    #logo-section{        padding:0 15px;        display: inline-block;        position: static;        left: 0px;    }    .logo-wrap{        width: 150px;    }    #social-section{        display: none;    }    button.ddl-navbar-toggle{        position: absolute;        right: 10px;        top:-55px;    }    div.ddl-navbar-collapse.ddl-navbar-collapse-fc2fef807165739fc7d6ce923fdee17d.collapse.in{        display-inline-block;        position: relative;        left:-150px;    }    #footer-menu{        padding-top: 10px;    }    #footer-menu .ddl-nav-wrap, .navbar-toggle, body .ddl-navbar-toggle{        margin:0;    }    #footer-menu .ddl-navbar-collapse{        display: block;    }    #footer-menu .ddl-navbar-collapse li{        margin: 10px 0;    }    #footer-menu button.ddl-navbar-toggle{        display: none;    }    #tittle-home h1:after{        display: none;    }    .slick-slider{        margin: 0px;    }    #products-glove{        height: auto;    }    .link-name {        max-width: 200px;        border-bottom:none;        border-top:none;    }    .carusel-img img {        margin-left: 0px;    }    #menu-footer-menu li{        display: block;        border:none;        height: 30px;    }    .interes-home img{        height: 150px;    }    .interes-home a{        margin-bottom: 11px;        height: 270px;        width: 280px;    }    .interes-home:last-child img{        height: 150px;        width: 180px;    }    .historia  {        width: 100%;    }    #future{       width: 100%;    }    .frase p:first-child:before{        content:' " ';        display:none;    }    .frase p:nth-child(4):after{        content:' " ';        display:none;    }    .frase{        opacity: 0;    }    .frase-responsive{        display: block;        padding: 10px;        text-align: center;    }    .frase-responsive p{        margin-top: -20px;    }    .frase-responsive p:nth-child(2n){        font-family: 'Comfortaa', cursive;        font-weight: 700;        font-size: 50px;    }    .wpcf7-form{        /*padding: 25px 20px 10px;*/        border-top: solid 6px #009482;        background: #fff;        box-shadow: 2px 2px 10px #cacaca;        width: 100%;        border-radius: 0 0 21px 20px;        margin: 0 auto;    }    .wpcf7-form input, .wpcf7-form textarea{        width: 100%;    }    #image-contact{        display: none;    }    nav.ddl-nav-wrap.ddl-navbar.ddl-navbar-default.ddl-nav-horizontal{        z-index: 222;    }    ul#menu-main-menu.ddl-nav.ddl-navbar-nav.ddl-nav-horizontal{        background-color: white;    }    #productos-page nav.ddl-nav-wrap.ddl-navbar.ddl-navbar-default.ddl-nav-horizontal{        z-index: 200;    }    #productos-page .ddl-navbar-toggle{        display: none;    }    #productos-page div.collapse.ddl-navbar-collapse{        display: inline-block;    }    #menu-section .ddl-navbar-collapse{        box-shadow: rgba(70, 70, 70, .1) 5px 5px 5px;    }    #menu-item-43>ul{        width: auto;        margin: 0;        float: left;    }    #menu-item-43 li a{        padding:5px;        width: 100%;        position: relative;        /*height: 50px;*/        min-height: 42px;        z-index: 9999;        -webkit-filter: grayscale(0%);        -moz-filter: grayscale(0%);        -o-filter: grayscale(0%);        filter: grayscale(0%);    }    #menu-item-43>ul>li{           height: auto;            width: 96%;       }    #menu-item-43 li:first-child a{        background: none;        background-color: #0063d0;        color:#fff;    }    #menu-item-43 li:nth-child(2) a{        background: none;        background-color:#009bdb;        color:#fff;        border: none;    }    #menu-item-43 li:nth-child(3) a{        background: none;        background-color: #e6007e;        color:#fff;        border: none;    }    #menu-item-43 li:nth-child(4) a{        background: none;        background-color: #bf0411;        color:#fff;        border: none;    }    #menu-item-43 li:nth-child(5) a{        background: none;        background-color: #eda900;        color:#fff;        border: none;    }    #menu-item-43 li:nth-child(6) a{        background: none;        background-color: #39a935;        color:#fff;        border: none;    }    #menu-section li.active a{        border-bottom: none;    }    #bidones-tittle,#cajas-tittle,#tanques-tittle,#otros-tittle,#jabas-tittle,#hogar-tittle{        width: 250px;        margin: 0 auto 10px;    }    #menu-section{        text-align:center;        padding-left: 0;        padding-right: 0;    }    .details ul{        width: 300px;        margin-left: -25px;        font-size: 0.8em;    }    .detalles-productos .especificaciones1 li{        width: 23%;    }    .details{        margin: 0;    }    .details h1 img{        display: none;        left:15px;    }    .detalles-productos{        margin-top:10px;        height: 350px;    }    #menu-section li{        /*height: 50px;*/    }    #footer-copyright{        text-align: center;        padding: 10px 10px 10px 10px;    }    .zoomWindowContainer{        display: none;    }    #wpv-view-layout-236-CPID289{        width: 100%;    }    div.look-image{        display: inline-block;        width: 50%;    }    div.details{        width: 50%;    }    #menu-productos-menu .productos-bidones, #menu-productos-menu .productos-cajas, #menu-productos-menu .productos-hogar, #menu-productos-menu .productos-jabas, #menu-productos-menu .productos-otros,#menu-productos-menu .productos-tanques{        background-position: center;        background-size: 300px;    }    #menu-productos-menu li{        float: left;        width: 45%;        background-position: center;    }    #menu-productos-menu li:nth-child(2n){        float: right;        width: 45%;        background-position: center;    }}@media only screen and  (max-width:600px) {    div.look-image{        display: inline-block;        width: 100%;    }    .interes-home a{        width: 100%;        display: block;    }    .interes-home:last-child{        float: none;    }    #menu-item-43>ul>li{        height: auto;        width: auto;    }    #menu-item-43 li a{        width: 300px;    }    div.details{        width: 100%;    }    .detalles-productos{        height: 530px;    }    #menu-productos-menu .productos-bidones, #menu-productos-menu .productos-cajas, #menu-productos-menu .productos-hogar, #menu-productos-menu .productos-jabas, #menu-productos-menu .productos-otros,#menu-productos-menu .productos-tanques{        background-position: center;        background-size: cover;    }    #menu-productos-menu li{        margin: 10px auto;        width: 100%;        background-position: center;        background-repeat: no-repeat;    }    #menu-productos-menu li:nth-child(2n){        margin: 10px auto;        width: 100%;        background-position: center;    }}
+/*! ******************************************************
+
+*
+
+*	Theme Name:     glovesa-child
+
+*   Author:         gecko
+
+*   Author URI:     http://gecko-btl.com/
+
+*   Description:    glovesa theme
+
+*   Version:        1.0
+
+*   License:        GNU General Public License v2 or later
+
+*   License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+
+*   Template:       glovesa
+
+*
+
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+body{
+    font-family: 'Comfortaa', cursive;
+    background-image:url(assets/cream_pixels.png);
+    background-repeat:repeat;
+    color:red;
+    font-size: 14px;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    color:black;
+    text-decoration: none;
+}
+a:focus{
+    outline: none;
+    color:black;
+    text-decoration: none;
+}
+#header-section{
+    background: white;
+    box-shadow: 1px 1px 10px;
+    height: 90px;
+}
+#logo-section{
+    position: relative;
+    left: 50px;
+    z-index: 10;
+}
+.logo-wrap{
+    padding-top: 15px;
+    width: 200px;
+}
+#menu-section{
+    text-transform: uppercase;
+    font-size:14px;
+    padding-left: 40px;
+}
+#menu-section a{
+    color:#009482;
+    border-bottom: solid 0 #fff;
+    transition: all .5s;
+}
+#menu-section a:hover{
+    border-bottom: solid 1px #009482;
+}
+#menu-section li{
+    margin:0 10px;
+}
+.ddl-nav-wrap{
+    margin-top: 20px;
+}
+#social-section ul{
+    list-style: none;
+    padding: 0;
+}
+#social-section li{
+    margin: 25px 10px;
+    display: inline-block;
+}
+#social-section a{
+    color:white;
+    display: block;
+    background: #009482;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    border-radius: 70px;
+    padding: 10px;
+    opacity: .5;
+    transition: all .5s;
+}
+
+#social-section a:hover{
+    opacity: 1;
+}
+
+#footer-section{
+    background: #009482;
+}
+
+#footer-section ul{
+    list-style: none;
+    padding:0;
+}
+#footer-menu{
+    background: #009482;
+    padding-top: 30px;
+    text-align: center;
+}
+#footer-menu li a{
+    color:white;
+    padding: 0;
+    text-transform: uppercase;
+}
+#footer-menu li:last-child{
+    border-right: solid 0 white;
+}
+#footer-menu li{
+    display: inline-block;
+    padding: 0 20px;
+    border-right: solid 1px white;
+}
+#footer-section a{
+    color: white;
+    text-transform: uppercase;
+    font-size:14px;
+}
+#social-section2{
+    padding-top: 10px;
+    text-align: center;
+}
+#social-section2 li{
+    display: inline-block;
+}
+#social-section2 a{
+    color:white;
+    display: inline-block;
+    background: #007d79;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    border-radius: 70px;
+    padding: 10px;
+    opacity:.5;
+    transition: all .5s;
+}
+
+#social-section2 a:hover{
+    opacity:1;
+}
+#footer-copyright p{
+    margin: 0;
+    opacity:.5;
+}
+#footer-copyright{
+    background: #545454;
+    color: white;
+    font-size: 14px;
+    padding: 10px 0 10px 60px;
+}
+#footer-copyright a{
+    color:white;
+    text-decoration: none;
+    transition:all .5s;
+}
+#footer-copyright a:hover{
+    color:deepskyblue;
+}
+.slick-prev, .slick-next{
+    /*background: #009482;
+    border-radius: 50%;
+    text-align: center;
+    padding: .5px .4px;*/
+    background: #cacaca;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    transition: all .5s;
+}
+.slick-prev:hover, .slick-next:hover{
+    background: #009482;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;¡
+    /*background: #009482;
+    border-radius: 50%;
+    text-align: center;
+    padding: .5px .4px;*/
+}
+
+#footer-menu .ddl-nav-wrap, .navbar-toggle, body .ddl-navbar-toggle{
+    margin: 0 210px;
+}
+
+.ddl-nav > li > a:hover, .ddl-nav > li > a:focus{
+    background: none;
+}
+#slider-home{
+    margin-top: -10px;
+}
+#buscados{
+    background: white;
+    padding-top: 150px;
+    margin-top: -200px;
+    z-index: -3;
+}
+#nosotros_banner{
+    margin-top: -10px;
+    z-index: -2;
+    background: url(assets/nosotros_banner_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.frase{
+    background: #009482;
+    color:white;
+    display: block;
+    width: 380px;
+    height:300px;
+    float:right;
+    margin: -11px 0 20px 0;
+    padding: 70px 20px 70px 70px;
+    font-size: 25px;
+    font-weight: 300;
+    border-radius: 0 0 50px 50px;
+}
+.frase p{
+    margin-top: -20px;
+}
+.frase p:nth-child(2n){
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 50px;
+}
+.frase p:first-child:before{
+    content:' " ';
+    font-weight: 700;
+    font-size:140px;
+    position: absolute;
+    left: 790px;
+    top: -10px;
+    opacity: .5;
+}
+.frase p:nth-child(4):after{
+    content:' " ';
+    font-weight: 700;
+    font-size:140px;
+    position: absolute;
+    top: 120px;
+    right: 90px;
+    opacity: .5;
+}
+/*
+#products-glove  .slick-slide{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: url(grayscale.svg);
+    filter: gray;
+    transform: scale(0.8);
+    opacity:.5;
+    transition: all 300ms ease;
+    padding: 10px;
+}
+*/
+#products-glove{
+    height:340px;
+}
+#products-glove  .slick-center{
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+    filter: url(grayscale.svg); /* Firefox 4+ */
+    filter: gray; /* IE 6-9 */
+    /*transform: scale(1.0);*/
+    opacity: 1;
+    transition: all 300ms ease;
+    /*height: 300px;*/
+}
+#home-site{
+    background: #fff;
+    padding:0 20px;
+}
+.carusel-img{
+    display: inline-block;
+}
+.carusel-img img{
+    margin-left: 14px;
+}
+.category-name{
+    text-align: center;
+    font-size: 13px;
+}
+.link-name{
+    width: 230px;
+    margin:0 auto;
+    font-size: 14px;
+    border-top:solid 1px #009482;
+    /*border-bottom:solid 1px #009482;*/
+    text-align:center;
+    /*font-size: 17px;*/
+    min-height: 60px;
+    padding-top: 5px;
+}
+.link-name a{
+    text-transform: uppercase;
+    color: #009482;
+    font-weight: bold;
+    text-decoration: none;
+}
+#tittle-home h1{
+    text-align: center;
+    color:#009482;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Dosis', cursive;
+}
+#tittle-home:nth-child(2) h1{
+    color:#626262;
+}
+#tittle-home h1:after{
+    content:url('http://glovesa.pe/wp-content/uploads/2016/02/sombra.png');
+    display:block;
+    opacity:.4;
+    text-align: center;
+}
+.interes-home:last-child img{
+    margin: 0 auto;
+    height: 200px;
+}
+.interes-home img{
+    margin: 0 auto;
+}
+.interes-home a{
+    width: 400px;
+    height: 351px;
+    text-decoration: none;
+    background: white;
+    /*box-shadow: 2px 2px 7px #cacaca;*/
+    padding:20px;
+    margin-bottom: 30px;
+    float: left;
+    text-align: center;
+}
+
+.interes-home:last-child{
+    float: left;
+}
+
+.interes-home h1{
+    color:#009482;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Dosis', cursive;
+    padding-bottom: 30px;
+    /*border-bottom: solid 2px #009482;*/
+}
+
+#nosotros-page{
+    background: #fff;
+    padding: 20px;
+}
+.historia, #future{
+    width: 720px;
+    margin: 0 auto;
+}
+.historia h1{
+    background: #009482;
+    padding: 10px 5px;
+    width: 250px;
+    margin: 10px auto;
+    text-align: center;
+    color:#fff;
+    font-size: 30px;
+    border-radius: 0 0 20px 20px;
+    font-family: 'Comfortaa', cursive;
+}
+.mision h1, .vision h1{
+    background: #009482;
+    padding: 10px 5px;
+    width: 250px;
+    margin: 10px auto;
+    text-align: center;
+    color:#fff;
+    font-size: 30px;
+    border-radius: 0 0 20px 20px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.servicios h1{
+    background: #009482;
+    padding: 10px 5px;
+    width: 250px;
+    margin: 0px auto;
+    text-align: center;
+    color:#fff;
+    font-size: 30px;
+    border-radius: 0 0 20px 20px;
+    font-family: 'Comfortaa', cursive;
+}
+.servicios-image{
+    margin-bottom: 15px;
+}
+.servicios-image img{
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.servicios-image h2{
+    text-align: center;
+    font-size: 19px;
+}
+
+.historia, .mision, .vision p{
+    text-align: justify;
+    padding-bottom: 10px;
+}
+#menu-productos{
+    background: white;
+    width: 100%;
+    display: none;
+}
+.menu-product:nth-child(2n){
+    background: #000;
+}
+.menu-product{
+    width: 16.666%;
+    background: #eda900;
+    height:345px;
+    z-index: 2;
+}
+#menu-item-43>ul{
+    width: 1170px;
+    margin: 18px -390px;
+    border: none;
+    border-radius: 0 0 20px 20px;
+}
+
+#menu-item-43>ul>li{
+    text-align: center;
+    height: 435px;
+    width: 16.666%;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    float: left;
+}
+#menu-item-43 li:first-child a{
+    background-image: url(assets/bidones4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#menu-item-43 li:nth-child(2) a{
+    background-image: url(assets/tanques3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#menu-item-43 li:nth-child(3) a{
+    background-image: url(assets/JABAS_AVICOLAS5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#menu-item-43 li:nth-child(4) a{
+    background-image: url(assets/CAJASPESCA3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#menu-item-43 li:nth-child(5) a{
+    background-image: url(assets/HOGAR3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#menu-item-43 li:nth-child(6) a{
+    background-image: url(assets/OTROS3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*#menu-item-43 li:first-child a{
+    background: #0063d0;
+    border-radius: 0px 0px 0px 20px;
+}
+#menu-item-43 li:nth-child(2) a{
+    background: #009bdb;
+}
+#menu-item-43 li:nth-child(3) a{
+    background: #ba007c;
+}
+#menu-item-43 li:nth-child(4) a{
+    background: #bf0411;
+}
+#menu-item-43 li:nth-child(5) a{
+    background: #db9600;
+}
+#menu-item-43 li:nth-child(6) a{
+    background: #39a935;
+    border-radius: 0px 0px 20px 0px;
+}*/
+#menu-item-43 li a{
+    padding: 395px 10px 0 10px;
+    border: none;
+    width: 16.666%;
+    background: transparent;
+    position: absolute;
+    height: 100%;
+    color: white;
+    line-height: 1.1;
+    /*height: 75px;*/
+    font-size: 1.1em;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: url(grayscale.svg); /* Firefox 4+ */
+    filter: gray; /* IE 6-9 */
+}
+
+#menu-item-43 ul a:hover{
+    border: none;
+    margin: 0 auto;
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+    filter: url(grayscale.svg); /* Firefox 4+ */
+    filter: gray; /* IE 6-9 */
+}
+#menu-section li.active a{
+    border-bottom: solid 1px #009482;
+}
+#wpgmza_map{
+    z-index:;
+}
+#glove-map{
+    margin-top: -22px;
+}
+#direccion p{
+    font-size: 18px;
+    text-align: center;
+    color:#009482;
+}
+#contactenos-body{
+    background: #fff;
+    padding: 20px;
+}
+.wpcf7-form{
+    padding: 25px 20px 10px;
+    border-top: solid 6px #009482;
+    background: #fff;
+    box-shadow: 2px 2px 10px #cacaca;
+    width: 390px;
+    border-radius: 0 0 20px 20px;
+    margin: 0 auto;
+}
+#image-contact img{
+    text-align: center;
+    width: 400px;
+    margin: 120px auto;
+}
+.wpcf7-form input, .wpcf7-form textarea{
+    border-radius: 10px;
+    border: solid 1px #303030;
+}
+.wpcf7-form input:focus,.wpcf7-form textarea:focus{
+    outline: none !important;
+    border-color:#009482;
+    box-shadow: 0 0 2px #009482;
+}
+.wpcf7-form p:nth-child(7){
+    text-align: right;
+}
+input.wpcf7-submit{
+    border: none;
+    background: #009482;
+    padding: 10px 10px 8px 10px;
+    text-transform: uppercase;
+    color: #fff;
+}
+span.wpcf7-not-valid-tip{
+    color:#009482;
+}
+div.wpcf7-validation-errors{
+    border: 2px solid #009482;
+}
+/* BIDONES PAGE */
+.bidones-prod{
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    min-height: 350px;
+    /*box-shadow: 2px 2px 10px #999;*/
+    border-bottom: solid 5px #0063d0;
+    margin-bottom: 20px;
+}
+.bidones-prod img{
+    margin-bottom: 40px;
+}
+.bidones-prod a{
+    font-size: 18px;
+    color:#7c7c7c;
+    text-decoration: none;
+}
+
+#bidones-tittle{
+    background: #0063d0;
+    color: white;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 15px 0px 5px;
+    font-size: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+/* FIN BIDONES PAGE */
+
+
+/*CAJAS PAGE */
+.cajas-prod{
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    min-height: 350px;
+    /*box-shadow: 2px 2px 10px #999;*/
+    border-bottom: solid 5px #bf0411;
+    margin-bottom: 20px;
+}
+.cajas-prod img{
+    margin-bottom: 40px;
+}
+.cajas-prod a{
+    font-size: 18px;
+    color:#7c7c7c;
+    text-decoration: none;
+}
+#cajas-tittle{
+    background: #bf0411;
+    color: white;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 15px 0 5px;
+    font-size: 20px;
+    border-radius: 0 0 20px 20px;
+}
+/* FIN CAJAS PAGE */
+
+
+
+/* TANQUES PAGE */
+.tanques-prod{
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    min-height: 350px;
+    /*box-shadow: 2px 2px 10px #999;*/
+    border-bottom: solid 5px #009bdb;
+    margin-bottom: 20px;
+}
+.tanques-prod img{
+    margin-bottom: 40px;
+}
+.tanques-prod a{
+    font-size: 18px;
+    color:#7c7c7c;
+    text-decoration: none;
+}
+
+#tanques-tittle{
+    background: #009bdb;
+    color: white;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 15px 0px 5px;
+    font-size: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+/* FIN TANQUES PAGE */
+
+/* HOGAR PAGE*/
+.hogar-prod{
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    min-height: 350px;
+    /*box-shadow: 2px 2px 10px #999;*/
+    border-bottom: solid 5px #eda900;
+    margin-bottom: 20px;
+}
+.hogar-prod img{
+    margin-bottom: 40px;
+}
+.hogar-prod a{
+    font-size: 18px;
+    color:#7c7c7c;
+    text-decoration: none;
+}
+
+#hogar-tittle{
+    background: #eda900;
+    color: white;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 15px 0px 5px;
+    font-size: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+/* FIN HOGAR PAGE*/
+
+/* JABAS PAGE*/
+.jabas-prod{
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    min-height: 350px;
+    /*box-shadow: 2px 2px 10px #999;*/
+    border-bottom: solid 5px #e6007e;
+    margin-bottom: 20px;
+}
+.jabas-prod img{
+    margin-bottom: 40px;
+}
+.jabas-prod a{
+    font-size: 18px;
+    color:#7c7c7c;
+    text-decoration: none;
+}
+
+#jabas-tittle{
+    background: #e6007e;
+    color: white;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 15px 0px 5px;
+    font-size: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+/* FIN JABAS PAGE*/
+
+/* OTROS PAGE*/
+.otros-prod{
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    /*box-shadow: 2px 2px 10px #999;*/
+    border-bottom: solid 5px #39a935;
+    margin-bottom: 20px;
+}
+.otros-prod img{
+    margin-bottom: 40px;
+}
+.otros-prod a{
+    font-size: 18px;
+    color:#7c7c7c;
+    text-decoration: none;
+}
+
+#otros-tittle{
+    background: #39a935;
+    color: white;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 15px 0px 5px;
+    font-size: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+/* FIN OTROS PAGE*/
+.flecha{
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+}
+
+.detalles-productos{
+    background: white;
+    padding: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: 390px;
+
+}
+.look-image{
+    float: left;
+}
+.look-image img{
+    width: 400px;
+}
+.details{
+    float: left;
+    padding: 20px;
+    margin-left: 140px;
+    border-radius: 0 0 10px 10px;
+}
+.details h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.details h1 img{
+    position: absolute;
+    left: 560px;
+}
+.details ul{
+    list-style: none;
+}
+.especificaciones2{
+    text-align: center;
+    padding: 5px;
+}
+/*Detalles bidones*/
+.especificaciones1 li{
+    width: 24%;
+}
+
+.especificaciones1{
+    background: #0063d0;
+    width: 400px;
+    /*padding: 5px;*/
+    border-radius: 0 0 10px 10px;
+    color: white;
+    margin:0;
+    text-align: center;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+/*Fin detalles bidones*/
+
+/*Detalles cajas*/
+.especificaciones1cajas li{
+    width: 24%;
+}
+
+.especificaciones1cajas{
+    background: #bf0411;
+    width: 400px;
+    /*padding: 5px;*/
+    border-radius: 0 0 10px 10px;
+    color: white;
+    text-align: center;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.especificaciones1cajas li {
+   display:inline-block;
+}
+
+/* fin detalles cajas*/
+
+/*Detalles tanques*/
+.especificaciones1tanques li{
+    width: 24%;
+}
+.especificaciones1tanques{
+    background: #009bdb;
+    width: 400px;
+    /*padding: 5px;*/
+    border-radius: 0 0 10px 10px;
+    color: white;
+    text-align: center;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.especificaciones1tanques li {
+    display:inline-block;
+}
+
+/* fin detalles tanques*/
+
+/*Detalles hogar*/
+.especificaciones1hogar li{
+    width: 24%;
+}
+.especificaciones1hogar{
+    background: #eda900;
+    width: 400px;
+    /*padding: 5px;*/
+    border-radius: 0 0 10px 10px;
+    color: white;
+    text-align: center;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.especificaciones1hogar li {
+    display:inline-block;
+}
+
+/* fin detalles hogar*/
+
+/*Detalles jabas*/
+
+.especificaciones1jabas li{
+    width: 24%;
+}
+.especificaciones1jabas{
+    background: #e6007e;
+    width: 400px;
+    /*padding: 5px;*/
+    border-radius: 0 0 10px 10px;
+    color: white;
+    text-align: center;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.especificaciones1jabas li {
+    display:inline-block;
+}
+
+/* fin detalles jabas*/
+
+/*Detalles otros*/
+.especificaciones1otrosA li{
+    width: 24%;
+    display: inline-block;
+}
+
+.especificaciones1otrosA{
+    background: #39a935;
+    width: 400px;
+    margin: 0;
+    /*padding: 5px;*/
+    border-radius: 0 0 10px 10px;
+    color: white;
+    text-align: center;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.especificaciones1otrosB li{
+    width: 24%;
+    display: inline-block;
+}
+
+.especificaciones1otrosB{
+    background: #39a935;
+    width: 400px;
+    margin: 0;
+    /*padding: 5px;*/
+    border-radius: 0 0 10px 10px;
+    color: white;
+    text-align: center;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.especificaciones2otrosB{
+    width: 400px;
+    text-align: center;
+    padding: 0;
+    padding-top: 5px;
+}
+.especificaciones2otrosA{
+    text-align: center;
+    padding: 0;
+    padding-top: 5px;
+}
+.especificaciones2otrosA li{
+    display:inline-block;
+    width: 24%;
+
+}
+
+.especificaciones2otrosB li{
+    display:inline-block;
+    width: 24%;
+}
+
+ /* fin detalles otros*/
+
+
+.especificaciones2{
+    width: 400px;
+    text-align: center;
+}
+.especificaciones2 li{
+    width: 24%;
+}
+.especificaciones li{
+    margin-bottom: 10px;
+}
+.especificaciones1 li, .especificaciones2 li{
+    display: inline-block;
+}
+.related-content{
+    margin-bottom: 20px;
+}
+/*BIDON INDUSTRIAL RELACIONADOS*/
+.bidon-industrial .related_products{
+    background: white;
+    margin: 5px 20px;
+    padding: 20px;
+    /*width: 32%;*/
+    /*text-align: center;*/
+    float: left;
+    border-radius: 20px;
+    border-bottom: solid 5px #0063d0;
+}
+
+.bidon-industrial .related_products a{
+    width: 100%;
+    text-decoration: none;
+}
+.bidon-industrial .related_products a.link-product:hover{
+    color: black;
+}
+.bidon-industrial .related_products a:nth-child(2):before{
+   content:url(http://glovesa.pe/wp-content/uploads/2016/01/ICON.png);
+   float: left;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.bidon-industrial .related_products img{
+    margin-bottom: 24px;
+    text-align: center;
+}
+/*FIN BIDON INDUSTRIAL RELACIONADOS*/
+
+/*CAJAS RELACIONADOS*/
+.caja .related_products{
+    background: white;
+    margin: 5px 20px;
+    padding: 20px;
+    /*width: 32%;*/
+    /*text-align: center;*/
+    float: left;
+    border-radius: 20px;
+    border-bottom: solid 5px #bf0411;
+}
+.caja .related_products a{
+    width: 100%;
+    text-decoration: none;
+}
+.caja .related_products a.link-product:hover{
+    color: black;
+}
+.caja .related_products a:nth-child(2):before{
+    content:url(http://glovesa.pe/wp-content/uploads/2016/01/flecha2.png);
+    float: left;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.caja .related_products img{
+    margin-bottom: 24px;
+    text-align: center;
+}
+/*FIN CAJAS RELACIONADOS*/
+
+
+/*TANQUES RELACIONADOS*/
+.tanque .related_products{
+    background: white;
+    margin: 5px 20px;
+    padding: 20px;
+   /* width: 32%;*/
+    /*text-align: center;*/
+    float: left;
+    border-radius: 20px;
+    border-bottom: solid 5px #009bdb;
+}
+.tanque .related_products a{
+    width: 100%;
+    text-decoration: none;
+}
+.tanque .related_products a.link-product:hover{
+    color: black;
+}
+.tanque .related_products a:nth-child(2):before{
+    content:url(http://glovesa.pe/wp-content/uploads/2016/01/flecha3.png);
+    float: left;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.tanque .related_products img{
+    margin-bottom: 24px;
+    text-align: center;
+}
+/*FIN TANQUES RELACIONADOS*/
+
+/*JABAS RELACIONADOS*/
+.jaba .related_products{
+    background: white;
+    margin: 5px 20px;
+    padding: 20px;
+    /*width: 32%;*/
+    /*text-align: center;*/
+    float: left;
+    border-radius: 20px;
+    border-bottom: solid 5px #e6007e;
+}
+.jaba .related_products a{
+    width: 100%;
+    text-decoration: none;
+}
+.jaba .related_products a.link-product:hover{
+    color: black;
+}
+.jaba .related_products a:nth-child(2):before{
+    content:url(http://glovesa.pe/wp-content/uploads/2016/01/flecha5.png);
+    float: left;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.jaba .related_products img{
+    margin-bottom: 24px;
+    text-align: center;
+}
+/*FIN JABAS RELACIONADOS*/
+
+/*HOGAR RELACIONADOS*/
+.producto-hogar .related_products{
+    background: white;
+    margin: 5px 20px;
+    padding: 20px;
+    /*width: 32%;*/
+    /*text-align: center;*/
+    float: left;
+    border-radius: 20px;
+    border-bottom: solid 5px #EDA900;
+}
+.producto-hogar .related_products a{
+    width: 100%;
+    text-decoration: none;
+}
+.producto-hogar .related_products a.link-product:hover{
+    color: black;
+}
+.producto-hogar .related_products a:nth-child(2):before{
+    content:url(http://glovesa.pe/wp-content/uploads/2016/01/flecha4.png);
+    float: left;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.producto-hogar .related_products img{
+    margin-bottom: 24px;
+    text-align: center;
+}
+/*FIN HOGAR RELACIONADOS*/
+
+.related-tittle h1{
+    margin: 0;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*OTROS RELACIONADOS*/
+.otro .related_products{
+    background: white;
+    margin: 5px;
+    padding: 20px;
+    /*width: 32%;*/
+    /*text-align: center;*/
+    float: left;
+    border-radius: 20px;
+    border-bottom: solid 5px #39a935;
+}
+
+.otro .related_products a{
+    width: 100%;
+    text-decoration: none;
+}
+.otro .related_products a.link-product:hover{
+    color: black;
+}
+.otro .related_products a:nth-child(2):before{
+    content:url(http://glovesa.pe/wp-content/uploads/2016/01/flecha6.png);
+    float: left;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.otro .related_products img{
+    margin-bottom: 24px;
+    text-align: center;
+}
+/*FIN OTROS RELACIONADOS*/
+
+
+/* Productos page*/
+#menu-productos-menu li{
+    margin: 10px 10px;
+    width: 320px;
+    border-radius: 10px;
+    height: 270px;
+    background: white;
+}
+#menu-productos-menu a{
+    text-align: center;
+    padding-top: 230px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#menu-productos-menu .productos-bidones a{
+    color: #0063d0;
+}
+#menu-productos-menu .productos-cajas a{
+    color:#bf0411;
+}
+#menu-productos-menu .productos-tanques a{
+    color:#009bdb;
+}
+#menu-productos-menu .productos-hogar a{
+    color:#eda900;
+}
+#menu-productos-menu .productos-otros a{
+    color:#39a935;
+}
+#menu-productos-menu .productos-jabas a{
+    color:#e6007e;
+}
+#menu-productos-menu .productos-bidones{
+    background: url("assets/bidones.png");
+    background-size: cover;
+    border-bottom: solid 2px #0063d0;
+}
+#menu-productos-menu .productos-cajas{
+    background: url("assets/cajas.png");
+    background-size: cover;
+    border-bottom: solid 2px #bf0411;
+}
+#menu-productos-menu .productos-tanques{
+    background: url("assets/tanques.png");
+    background-size: cover;
+    border-bottom: solid 2px #009bdb;
+}
+#menu-productos-menu .productos-hogar{
+    background: url("assets/hogar.png");
+    background-size: cover;
+    border-bottom: solid 2px #eda900;
+}
+#menu-productos-menu .productos-otros{
+    background: url("assets/Otros.png");
+    background-size: cover;
+    border-bottom: solid 2px #39a935;
+}
+#menu-productos-menu .productos-jabas{
+    background: url("assets/jabas.png");
+    background-size: cover;
+    border-bottom: solid 2px #e6007e;
+}
+.frase-responsive{
+    display: none;
+}
+/* Fin Productos page*/
+
+@media only screen and (max-width: 801px) { /* NO DESKTOP */
+    /*#header-section{
+        height: auto;
+    }*/
+
+    .social-section{
+        display: none;
+    }
+    #logo-section{
+        padding:0 15px;
+        display: inline-block;
+        position: static;
+        left: 0px;
+    }
+    .logo-wrap{
+        width: 150px;
+    }
+    #social-section{
+        display: none;
+    }
+    button.ddl-navbar-toggle{
+        position: absolute;
+        right: 10px;
+        top:-55px;
+    }
+    div.ddl-navbar-collapse.ddl-navbar-collapse-fc2fef807165739fc7d6ce923fdee17d.collapse.in{
+        display-inline-block;
+        position: relative;
+        left:-150px;
+    }
+    #footer-menu{
+        padding-top: 10px;
+    }
+    #footer-menu .ddl-nav-wrap, .navbar-toggle, body .ddl-navbar-toggle{
+        margin:0;
+    }
+    #footer-menu .ddl-navbar-collapse{
+        display: block;
+    }
+    #footer-menu .ddl-navbar-collapse li{
+        margin: 10px 0;
+    }
+    #footer-menu button.ddl-navbar-toggle{
+        display: none;
+    }
+    #tittle-home h1:after{
+        display: none;
+    }
+    .slick-slider{
+        margin: 0px;
+    }
+    #products-glove{
+        height: auto;
+    }
+    .link-name {
+        max-width: 200px;
+        border-bottom:none;
+        border-top:none;
+    }
+    .carusel-img img {
+        margin-left: 0px;
+    }
+    #menu-footer-menu li{
+        display: block;
+        border:none;
+        height: 30px;
+    }
+    .interes-home img{
+        height: 150px;
+    }
+    .interes-home a{
+        margin-bottom: 11px;
+        height: 270px;
+        width: 280px;
+    }
+    .interes-home:last-child img{
+        height: 150px;
+        width: 180px;
+    }
+    .historia  {
+        width: 100%;
+    }
+    #future{
+       width: 100%;
+    }
+
+    .frase p:first-child:before{
+        content:' " ';
+        display:none;
+    }
+    .frase p:nth-child(4):after{
+        content:' " ';
+        display:none;
+    }
+    .frase{
+        opacity: 0;
+    }
+    .frase-responsive{
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+    .frase-responsive p{
+        margin-top: -20px;
+    }
+    .frase-responsive p:nth-child(2n){
+        font-family: 'Comfortaa', cursive;
+        font-weight: 700;
+        font-size: 50px;
+    }
+    .wpcf7-form{
+        /*padding: 25px 20px 10px;*/
+        border-top: solid 6px #009482;
+        background: #fff;
+        box-shadow: 2px 2px 10px #cacaca;
+        width: 100%;
+        border-radius: 0 0 21px 20px;
+        margin: 0 auto;
+    }
+    .wpcf7-form input, .wpcf7-form textarea{
+        width: 100%;
+    }
+    #image-contact{
+        display: none;
+    }
+    nav.ddl-nav-wrap.ddl-navbar.ddl-navbar-default.ddl-nav-horizontal{
+        z-index: 222;
+    }
+    ul#menu-main-menu.ddl-nav.ddl-navbar-nav.ddl-nav-horizontal{
+        background-color: white;
+    }
+    #productos-page nav.ddl-nav-wrap.ddl-navbar.ddl-navbar-default.ddl-nav-horizontal{
+        z-index: 200;
+    }
+    #productos-page .ddl-navbar-toggle{
+        display: none;
+    }
+    #productos-page div.collapse.ddl-navbar-collapse{
+        display: inline-block;
+    }
+
+    #menu-section .ddl-navbar-collapse{
+        box-shadow: rgba(70, 70, 70, .1) 5px 5px 5px;
+    }
+
+    #menu-item-43>ul{
+        width: auto;
+        margin: 0;
+        float: left;
+    }
+    #menu-item-43 li a{
+        padding:5px;
+        width: 100%;
+        position: relative;
+        /*height: 50px;*/
+        min-height: 42px;
+        z-index: 9999;
+        -webkit-filter: grayscale(0%);
+        -moz-filter: grayscale(0%);
+        -o-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+    #menu-item-43>ul>li{
+           height: auto;
+            width: 96%;
+       }
+
+    #menu-item-43 li:first-child a{
+        background: none;
+        background-color: #0063d0;
+        color:#fff;
+    }
+    #menu-item-43 li:nth-child(2) a{
+        background: none;
+        background-color:#009bdb;
+        color:#fff;
+        border: none;
+    }
+    #menu-item-43 li:nth-child(3) a{
+        background: none;
+        background-color: #e6007e;
+        color:#fff;
+        border: none;
+    }
+    #menu-item-43 li:nth-child(4) a{
+        background: none;
+        background-color: #bf0411;
+        color:#fff;
+        border: none;
+    }
+    #menu-item-43 li:nth-child(5) a{
+        background: none;
+        background-color: #eda900;
+        color:#fff;
+        border: none;
+    }
+    #menu-item-43 li:nth-child(6) a{
+        background: none;
+        background-color: #39a935;
+        color:#fff;
+        border: none;
+    }
+
+    #menu-section li.active a{
+        border-bottom: none;
+    }
+
+    #bidones-tittle,#cajas-tittle,#tanques-tittle,#otros-tittle,#jabas-tittle,#hogar-tittle{
+        width: 250px;
+        margin: 0 auto 10px;
+    }
+    #menu-section{
+        text-align:center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .details ul{
+        width: 300px;
+        margin-left: -25px;
+        font-size: 0.8em;
+    }
+    .detalles-productos .especificaciones1 li{
+        width: 23%;
+    }
+    .details{
+        margin: 0;
+    }
+    .details h1 img{
+        display: none;
+        left:15px;
+    }
+    .detalles-productos{
+        margin-top:10px;
+        height: 350px;
+    }
+    #menu-section li{
+        /*height: 50px;*/
+    }
+    #footer-copyright{
+        text-align: center;
+        padding: 10px 10px 10px 10px;
+    }
+    .zoomWindowContainer{
+        display: none;
+    }
+    #wpv-view-layout-236-CPID289{
+        width: 100%;
+    }
+    div.look-image{
+        display: inline-block;
+        width: 50%;
+    }
+    div.details{
+        width: 50%;
+    }
+    #menu-productos-menu .productos-bidones, #menu-productos-menu .productos-cajas, #menu-productos-menu .productos-hogar, #menu-productos-menu .productos-jabas, #menu-productos-menu .productos-otros,#menu-productos-menu .productos-tanques{
+        background-position: center;
+        background-size: 300px;
+
+    }
+    #menu-productos-menu li{
+        float: left;
+        width: 45%;
+        background-position: center;
+    }
+    #menu-productos-menu li:nth-child(2n){
+        float: right;
+        width: 45%;
+        background-position: center;
+    }
+
+}
+@media only screen and  (max-width:600px) {
+    div.look-image{
+        display: inline-block;
+        width: 100%;
+    }
+    .interes-home a{
+        width: 100%;
+        display: block;
+    }
+    .interes-home:last-child{
+        float: none;
+    }
+    #menu-item-43>ul>li{
+        height: auto;
+        width: auto;
+    }
+    #menu-item-43 li a{
+        width: 300px;
+    }
+    div.details{
+        width: 100%;
+    }
+    .detalles-productos{
+        height: 530px;
+    }
+    #menu-productos-menu .productos-bidones, #menu-productos-menu .productos-cajas, #menu-productos-menu .productos-hogar, #menu-productos-menu .productos-jabas, #menu-productos-menu .productos-otros,#menu-productos-menu .productos-tanques{
+        background-position: center;
+        background-size: cover;
+    }
+    #menu-productos-menu li{
+        margin: 10px auto;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #menu-productos-menu li:nth-child(2n){
+        margin: 10px auto;
+        width: 100%;
+        background-position: center;
+    }
+
+}

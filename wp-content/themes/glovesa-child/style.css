@@ -45,7 +45,7 @@ a:focus{
 #header-section{
     background: white;
     box-shadow: 1px 1px 10px;
-    height: 90px;
+    /*height: 90px;*/
 }
 #logo-section{
     position: relative;
@@ -187,7 +187,7 @@ a:focus{
     background: #009482;
     border-radius: 50%;
     width: 30px;
-    height: 30px;¡
+    height: 30px;
     /*background: #009482;
     border-radius: 50%;
     text-align: center;
@@ -195,15 +195,13 @@ a:focus{
 }
 
 #footer-menu .ddl-nav-wrap, .navbar-toggle, body .ddl-navbar-toggle{
-    margin: 0 210px;
+    margin: 0 160px;
 }
 
 .ddl-nav > li > a:hover, .ddl-nav > li > a:focus{
     background: none;
 }
-#slider-home{
-    margin-top: -10px;
-}
+
 #buscados{
     background: white;
     padding-top: 150px;
@@ -211,8 +209,6 @@ a:focus{
     z-index: -3;
 }
 #nosotros_banner{
-    margin-top: -10px;
-    z-index: -2;
     background: url(assets/nosotros_banner_2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -224,7 +220,7 @@ a:focus{
     width: 380px;
     height:300px;
     float:right;
-    margin: -11px 0 20px 0;
+    margin: 0px 0 20px 0;
     padding: 70px 20px 70px 70px;
     font-size: 25px;
     font-weight: 300;
@@ -396,7 +392,9 @@ a:focus{
     border-radius: 0 0 20px 20px;
     font-family: 'Comfortaa', cursive;
 }
-
+.servicios{
+    z-index: -2;
+}
 .servicios h1{
     background: #009482;
     padding: 10px 5px;
@@ -409,7 +407,7 @@ a:focus{
     font-family: 'Comfortaa', cursive;
 }
 .servicios-image{
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 .servicios-image img{
     margin: 0 auto;
@@ -417,7 +415,14 @@ a:focus{
 }
 .servicios-image h2{
     text-align: center;
-    font-size: 19px;
+    font-size: 16px;
+    background: #009482;
+    width: 250px;
+    color: #fff;
+    height: 35px;
+    border-radius: 0px 0px 10px 10px;
+    padding: 7px;
+    margin: 0 auto;
 }
 
 .historia, .mision, .vision p{
@@ -542,7 +547,7 @@ a:focus{
     z-index:;
 }
 #glove-map{
-    margin-top: -22px;
+    margin-top: -11px;
 }
 #direccion p{
     font-size: 18px;
@@ -614,7 +619,6 @@ div.wpcf7-validation-errors{
 #bidones-tittle{
     background: #0063d0;
     color: white;
-    margin-top: -10px;
     margin-bottom: 25px;
     text-align: center;
     padding: 15px 0px 5px;
@@ -645,7 +649,6 @@ div.wpcf7-validation-errors{
 #cajas-tittle{
     background: #bf0411;
     color: white;
-    margin-top: -10px;
     margin-bottom: 25px;
     text-align: center;
     padding: 15px 0 5px;
@@ -678,7 +681,6 @@ div.wpcf7-validation-errors{
 #tanques-tittle{
     background: #009bdb;
     color: white;
-    margin-top: -10px;
     margin-bottom: 25px;
     text-align: center;
     padding: 15px 0px 5px;
@@ -710,7 +712,6 @@ div.wpcf7-validation-errors{
 #hogar-tittle{
     background: #eda900;
     color: white;
-    margin-top: -10px;
     margin-bottom: 25px;
     text-align: center;
     padding: 15px 0px 5px;
@@ -742,7 +743,6 @@ div.wpcf7-validation-errors{
 #jabas-tittle{
     background: #e6007e;
     color: white;
-    margin-top: -10px;
     margin-bottom: 25px;
     text-align: center;
     padding: 15px 0px 5px;
@@ -772,7 +772,6 @@ div.wpcf7-validation-errors{
 #otros-tittle{
     background: #39a935;
     color: white;
-    margin-top: -10px;
     margin-bottom: 25px;
     text-align: center;
     padding: 15px 0px 5px;
@@ -789,6 +788,7 @@ div.wpcf7-validation-errors{
 .detalles-productos{
     background: white;
     padding: 30px;
+    margin-top: 20px;
     margin-bottom: 10px;
     border-radius: 10px;
     height: 390px;
@@ -1273,7 +1273,9 @@ div.wpcf7-validation-errors{
     /*#header-section{
         height: auto;
     }*/
-
+    #header-section{
+        height:90px;
+    }
     .social-section{
         display: none;
     }
@@ -1295,7 +1297,7 @@ div.wpcf7-validation-errors{
         top:-55px;
     }
     div.ddl-navbar-collapse.ddl-navbar-collapse-fc2fef807165739fc7d6ce923fdee17d.collapse.in{
-        display-inline-block;
+        display:inline-block;
         position: relative;
         left:-150px;
     }
@@ -1318,7 +1320,7 @@ div.wpcf7-validation-errors{
         display: none;
     }
     .slick-slider{
-        margin: 0px;
+        margin: 0;
     }
     #products-glove{
         height: auto;
@@ -1329,7 +1331,7 @@ div.wpcf7-validation-errors{
         border-top:none;
     }
     .carusel-img img {
-        margin-left: 0px;
+        margin-left: 0;
     }
     #menu-footer-menu li{
         display: block;
@@ -1348,7 +1350,7 @@ div.wpcf7-validation-errors{
         height: 150px;
         width: 180px;
     }
-    .historia  {
+    .historia{
         width: 100%;
     }
     #future{
@@ -1438,38 +1440,51 @@ div.wpcf7-validation-errors{
 
     #menu-item-43 li:first-child a{
         background: none;
-        background-color: #0063d0;
-        color:#fff;
+        /*background-color: #0063d0;*/
+        color:#0063d0;
+        border-bottom: solid 1px #0063d0;
+        padding:10px 0;
     }
     #menu-item-43 li:nth-child(2) a{
         background: none;
-        background-color:#009bdb;
-        color:#fff;
+        /*background-color:#009bdb;*/
+        color:#009bdb;
         border: none;
+        border-bottom: solid 1px #009bdb;
+        padding:10px 0;
+
     }
     #menu-item-43 li:nth-child(3) a{
         background: none;
-        background-color: #e6007e;
-        color:#fff;
+        /*background-color: #e6007e;*/
+        padding:10px 0;
+        color:#e6007e;
         border: none;
+        border-bottom: solid 1px #e6007e;
     }
     #menu-item-43 li:nth-child(4) a{
         background: none;
-        background-color: #bf0411;
-        color:#fff;
+        /*background-color: #bf0411;*/
+        padding:10px 0;
+        color:#bf0411;
         border: none;
+        border-bottom: solid 1px #bf0411;
     }
     #menu-item-43 li:nth-child(5) a{
         background: none;
-        background-color: #eda900;
-        color:#fff;
+        /*background-color: #eda900;*/
+        padding:10px 0;
+        color:#eda900;
         border: none;
+        border-bottom: solid 1px #eda900;
     }
     #menu-item-43 li:nth-child(6) a{
         background: none;
-        background-color: #39a935;
-        color:#fff;
+        /*background-color: #39a935;*/
+        padding:10px 0;
+        color:#39a935;
         border: none;
+        border-bottom: solid 1px #39a935;
     }
 
     #menu-section li.active a{
@@ -1539,6 +1554,9 @@ div.wpcf7-validation-errors{
         width: 45%;
         background-position: center;
     }
+    #menu-item-43 li a{
+        width: 600px;
+    }
 
 }
 @media only screen and  (max-width:600px) {
@@ -1558,7 +1576,7 @@ div.wpcf7-validation-errors{
         width: auto;
     }
     #menu-item-43 li a{
-        width: 300px;
+        width: 310px;
     }
     div.details{
         width: 100%;

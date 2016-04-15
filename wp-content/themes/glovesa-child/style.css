@@ -444,8 +444,8 @@ a:focus{
     z-index: 2;
 }
 #menu-item-43>ul{
-    width: 1170px;
-    margin: 18px -390px;
+    width: 1330px;
+    margin: 18px -455px;
     border: none;
     border-radius: 0 0 20px 20px;
 }
@@ -453,41 +453,53 @@ a:focus{
 #menu-item-43>ul>li{
     text-align: center;
     height: 435px;
-    width: 16.666%;
+    width: 14%;
     margin: 0;
     list-style: none;
     display: inline-block;
     float: left;
 }
 #menu-item-43 li:first-child a{
-    background-image: url(assets/bidones4.png);
+    background-image: url(assets/bidones_nn.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 #menu-item-43 li:nth-child(2) a{
-    background-image: url(assets/tanques3.png);
+    background-image: url(assets/tanques_nn.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 #menu-item-43 li:nth-child(3) a{
-    background-image: url(assets/JABAS_AVICOLAS5.png);
+    background-image: url(assets/jabas_n.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 #menu-item-43 li:nth-child(4) a{
-    background-image: url(assets/CAJASPESCA3.png);
+    background-image: url(assets/cajas_de_pesca_n.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 #menu-item-43 li:nth-child(5) a{
-    background-image: url(assets/HOGAR3.png);
+    background-image: url(assets/cajas_agricultura_n.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 #menu-item-43 li:nth-child(6) a{
-    background-image: url(assets/OTROS3.png);
+    background-image: url(assets/hogar_n.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+}
+#menu-item-43 li:nth-child(7) a{
+    background-image: url(assets/otros_nn.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 /*#menu-item-43 li:first-child a{
     background: #0063d0;
@@ -509,17 +521,24 @@ a:focus{
     background: #39a935;
     border-radius: 0px 0px 20px 0px;
 }*/
+
+#menu-section .ddl-dropdown-menu{
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
 #menu-item-43 li a{
     padding: 395px 10px 0 10px;
     border: none;
-    width: 16.666%;
+    width: 14%;
     background: transparent;
     position: absolute;
     height: 100%;
     color: white;
     line-height: 1.1;
     /*height: 75px;*/
-    font-size: 1.1em;
+    font-size: 1em;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
@@ -794,12 +813,15 @@ div.wpcf7-validation-errors{
     height: 390px;
 
 }
+#gal1{
+    margin-top: 30px;
+}
 .look-image{
     float: left;
 }
-.look-image img{
+/*.look-image img{
     width: 400px;
-}
+}*/
 .details{
     float: left;
     padding: 20px;
@@ -812,7 +834,7 @@ div.wpcf7-validation-errors{
 }
 .details h1 img{
     position: absolute;
-    left: 560px;
+    left: 460px;
 }
 .details ul{
     list-style: none;

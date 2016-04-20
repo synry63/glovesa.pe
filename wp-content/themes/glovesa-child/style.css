@@ -923,7 +923,7 @@ div.wpcf7-validation-errors{
 
 #caja-de-agricultura .especificaciones1cajas{
     background: #aa0185;
-    width: 400px;
+    /*width: 400px;*/
     /*padding: 5px;*/
     border-radius: 0 0 10px 10px;
     color: white;
@@ -1328,6 +1328,9 @@ div.wpcf7-validation-errors{
 #menu-productos-menu .productos-cajas a{
     color:#bf0411;
 }
+#menu-productos-menu .productos-agricultura a{
+    color:#aa0185;
+}
 #menu-productos-menu .productos-tanques a{
     color:#009bdb;
 }
@@ -1349,6 +1352,11 @@ div.wpcf7-validation-errors{
     background: url("assets/cajas.png");
     background-size: cover;
     border-bottom: solid 2px #bf0411;
+}
+#menu-productos-menu .productos-agricultura{
+    background: url("assets/cosecheras_products.jpg") no-repeat center;
+    background-size: cover;
+    border-bottom: solid 2px #aa0185;
 }
 #menu-productos-menu .productos-tanques{
     background: url("assets/tanques.png");
@@ -1580,11 +1588,19 @@ div.wpcf7-validation-errors{
         background: none;
         /*background-color: #eda900;*/
         padding:10px 0;
-        color:#eda900;
+        color:#aa0185;
+        border: none;
+        border-bottom: solid 1px #aa0185;
+    }
+    #menu-item-43 li:nth-child(6) a{
+        background: none;
+        /*background-color: #39a935;*/
+        padding:10px 0;
+        color:#EDA900;
         border: none;
         border-bottom: solid 1px #eda900;
     }
-    #menu-item-43 li:nth-child(6) a{
+    #menu-item-43 li:nth-child(7) a{
         background: none;
         /*background-color: #39a935;*/
         padding:10px 0;
@@ -1593,11 +1609,12 @@ div.wpcf7-validation-errors{
         border-bottom: solid 1px #39a935;
     }
 
+
     #menu-section li.active a{
         border-bottom: none;
     }
 
-    #bidones-tittle,#cajas-tittle,#tanques-tittle,#otros-tittle,#jabas-tittle,#hogar-tittle{
+    #bidones-tittle,#cajas-tittle,#tanques-tittle,#otros-tittle,#jabas-tittle,#hogar-tittle, #caja-de-agricultura-tittle{
         width: 250px;
         margin: 0 auto 10px;
     }
@@ -1648,7 +1665,6 @@ div.wpcf7-validation-errors{
     #menu-productos-menu .productos-bidones, #menu-productos-menu .productos-cajas, #menu-productos-menu .productos-hogar, #menu-productos-menu .productos-jabas, #menu-productos-menu .productos-otros,#menu-productos-menu .productos-tanques{
         background-position: center;
         background-size: 300px;
-
     }
     #menu-productos-menu li{
         float: left;
@@ -1688,7 +1704,7 @@ div.wpcf7-validation-errors{
         width: 100%;
     }
     .detalles-productos{
-        height: 530px;
+        height: 580px;
     }
     #menu-productos-menu .productos-bidones, #menu-productos-menu .productos-cajas, #menu-productos-menu .productos-hogar, #menu-productos-menu .productos-jabas, #menu-productos-menu .productos-otros,#menu-productos-menu .productos-tanques{
         background-position: center;
